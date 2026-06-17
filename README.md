@@ -17,13 +17,13 @@ The systems documented here were designed to operate in high-volume, mission-cri
 
 Explore the technical documentation for my key architectural implementations:
 
-*   🎛️ **[Universal Workstation GUI Framework](./workstation-gui-framework/)**
+*    **[Universal Workstation GUI Framework](./workstation-gui-framework/)**
     *   A secure, role-based graphical interface designed for edge deployment across multiple assembly stations. Features offline resilience and adaptive themes.
-*   🌐 **[Digital Twin Architecture & Telemetry](./digital-twin-architecture/)**
+*    **[Digital Twin Architecture & Telemetry](./digital-twin-architecture/)**
     *   The data backbone. Explains how local stations emit real-time event streams (SSE) and manage `state.json` telemetry for immediate dashboard updates.
-*   ⚙️ **[Torque Validation System](./torque-validation-system/)**
+*    **[Torque Validation System](./torque-validation-system/)**
     *   An automated Poka-Yoke system that captures serial data from smart tools to validate and log critical fastening metrics.
-*   📐 **[Angle Detection System](./angle-detection-system/)**
+*    **[Angle Detection System](./angle-detection-system/)**
     *   A computer vision-based inspection system that calculates component angles, generating permanent visual evidence (overlays) for quality audits.
 
 ## Technologies Used
